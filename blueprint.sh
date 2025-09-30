@@ -1,14 +1,16 @@
 #!/bin/bash
 
 clear
-echo "   _____ _    _ _____ _    _          __  __ "
-echo "  / ____| |  | |_   _| |  | |   /\   |  \/  |"
-echo " | (___ | |__| | | | | |__| |  /  \  | \  / |"
-echo "  \___ \|  __  | | | |  __  | / /\ \ | |\/| |"
-echo "  ____) | |  | |_| |_| |  | |/ ____ \| |  | |"
-echo " |_____/|_|  |_|_____|_|  |_/_/    \_\_|  |_|"
+echo "   _____   _    _   _____  __      __             __  __ "
+echo "  / ____| | |  | | |_   _| \ \    / /     /\     |  \/  |"
+echo " | (___   | |__| |   | |    \ \  / /     /  \    | \  / |"
+echo "  \___ \  |  __  |   | |     \ \/ /     / /\ \   | |\/| |"
+echo "  ____) | | |  | |  _| |_     \  /     / ____ \  | |  | |"
+echo " |_____/  |_|  |_| |_____|     \/     /_/    \_\ |_|  |_|"
+echo "                                                         "
+echo "                                                         "
 
-echo Starting Installation
+echo "=== Starting Installation for Shivam ==="
 
 sudo apt-get install -y ca-certificates curl gnupg
 sudo mkdir -p /etc/apt/keyrings
@@ -25,5 +27,5 @@ unzip release.zip
 chmod +x blueprint.sh
 bash blueprint.sh
 
-echo Now you can use blueprint extensions! :tada:
-Enjoy!
+echo "=== Now you can use blueprint extensions! 🎉 ==="
+echo "=== Enjoy, Shivam! 🚀 ==="
